@@ -96,6 +96,9 @@ header .header-dx .conatiner-btn{
     width: 80%;
     margin: auto;
 }
+#jumbo .horizontal-center{
+    height: 800px;
+}
 #jumbo .horizontal-center h1{
     font-size: 80px;
     padding: 50px 0;
@@ -103,8 +106,19 @@ header .header-dx .conatiner-btn{
 #jumbo .horizontal-center p{
     font-weight: 600;
     width: 30%;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
-#jumbo .horizontal-center .container-btn .btn{
-    margin-bottom: 100px ;
+#jumbo .horizontal-center .containerImgJumbo{
+    width:70%;
+    float: right;
+}
+#jumbo .horizontal-center img{
+    max-width: 100%;
+}
+#jumbo .horizontal-center .container-btn div{
+    margin: 30px 0;
+}
+#jumbo .horizontal-center .frecciaGiu{
+    font-size: 50px;
+    margin-top: 50px;
 }
