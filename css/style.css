@@ -147,7 +147,14 @@ header .header-dx .container-btn{
 .aside, .centrale{
     float: left;
     width: calc(100% / 3 - 34px);
+/*     height: 1270px; */
 }
+.containerPacchetti{
+}
+.asidesx{
+
+}
+
 .pacchetto{
     border: solid 1px grey;
 }
@@ -221,7 +228,7 @@ header .header-dx .container-btn{
     color:rgb(0,97,255) ;
 }
 .pacchetto .pacchetto-main .corto ul{
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 /* pacchetto finale */
 .pacchetto-finale{
@@ -239,4 +246,38 @@ header .header-dx .container-btn{
     width: 25%;
     margin-top: 0px;
     float: right;
+}
+.pacchetti{
+    margin-bottom: 10%;
+}
+/* fine sezione pacchetti acquistabili */
+
+/* sezione partner */
+.containerImg-partner{
+    width: 48%;
+    float: left;
+}
+.containerImg-partner img{
+    max-width: 100%;
+}
+.containerText{
+    padding-top: 40px;
+    width: 48%;
+    float: right;
+}
+.containerText h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.containerText p{
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+.white{
+    border: solid 1px black;
+    padding: 9px 20px;
+    background-color: white;
+}
+.white:hover{
+    background-color: rgb(219, 219, 219);
 }
