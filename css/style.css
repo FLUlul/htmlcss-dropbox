@@ -67,7 +67,7 @@ header .header-dx li{
     display: inline-block;
     padding-right: 30px;
 }
-header .header-dx .conatiner-btn{
+header .header-dx .container-btn{
     display: inline-block;
     margin-right: 30px;
 }
@@ -144,9 +144,11 @@ header .header-dx .conatiner-btn{
     padding-right: 20px;
 }
 /* pacchetti acquistabili */
-.pacchetto{
+.aside, .centrale{
     float: left;
     width: calc(100% / 3 - 34px);
+}
+.pacchetto{
     border: solid 1px grey;
 }
 .centrale{
@@ -220,4 +222,21 @@ header .header-dx .conatiner-btn{
 }
 .pacchetto .pacchetto-main .corto ul{
     padding-bottom: 50px;
+}
+/* pacchetto finale */
+.pacchetto-finale{
+    margin-top: 50px;
+}
+.pacchetto-finale p{
+    margin-top: 40px;
+    font-size: 15px;
+}
+.pacchetto-finale .pacchetto-nome{
+    float: left;
+    width: 75%;
+}
+.pacchetto-finale #container-btn-finale{
+    width: 25%;
+    margin-top: 0px;
+    float: right;
 }
