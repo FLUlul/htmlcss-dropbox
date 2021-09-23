@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: black;
 }
 .clearfix::after{
@@ -104,7 +105,6 @@ header .header-dx .conatiner-btn{
     padding: 50px 0;
 }
 #jumbo .horizontal-center p{
-    font-weight: 600;
     width: 30%;
     padding-bottom: 50px;
 }
@@ -121,4 +121,45 @@ header .header-dx .conatiner-btn{
 #jumbo .horizontal-center .frecciaGiu{
     font-size: 50px;
     margin-top: 50px;
+}
+/* fine jumbotron */
+
+/* sezione pacchetti acquistabili */
+.horizontal-center-2{
+    width: 65%;
+    margin: auto;
+}
+.pacchetti{
+    padding-top: 200px;
+}
+.pacchetti .horizontal-center-2 h2{
+    font-size: 45px;
+    padding: 50px 0;
+}
+.pacchetti .horizontal-center-2 .fatturazioni input{
+    margin-right:10px;
+    margin-bottom: 50px;
+}
+.pacchetti .horizontal-center-2 .fatturazioni span{
+    padding-right: 20px;
+}
+/* pacchetti acquistabili */
+.pacchetto{
+    float: left;
+    width: calc(100% / 3 - 34px);
+    border: solid 1px grey;
+}
+.centrale{
+    margin: 0 50px;
+}
+.pacchetto .pacchetto-header{
+    border-bottom: solid 1px grey;
+    text-align: center;
+    padding: 10px 0;
+}
+.pacchetto .pacchetto-main{
+    padding: 30px 30px;
+}
+.pacchetto .pacchetto-main .pacchetto-nome{
+    font-size: 30px;
 }
