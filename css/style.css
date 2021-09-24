@@ -99,7 +99,7 @@ header .header-dx .container-btn{
     margin: auto;
 }
 #jumbo .horizontal-center{
-    height: 800px;
+    height: 850px;
 }
 #jumbo .horizontal-center h1{
     font-size: 80px;
@@ -148,14 +148,13 @@ header .header-dx .container-btn{
 .aside, .centrale{
     float: left;
     width: calc(100% / 3 - 34px);
-/*     height: 1270px; */
+    height: 100%;
 }
-.containerPacchetti{
+.cnt-pack-top{
+    height: 2000px;
+    min-height: 1050px;
+    max-height: 1250px;
 }
-.asidesx{
-
-}
-
 .pacchetto{
     border: solid 1px grey;
 }
@@ -190,6 +189,15 @@ header .header-dx .container-btn{
 .pacchetto .pacchetto-main .pacchetto-contenuto .cnt{
     margin-bottom: 30px;
     font-size: 16px;
+}
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt span{
+    float: left;
+    width: 90%;
+}
+.pacchetto .pacchetto-main .pacchetto-contenuto .cnt i{
+    float: left;
+    padding: 5px 5px ;
+
 }
 /* pacchetto btn e acquista ora */
 .pacchetto .pacchetto-main .container-btn{
@@ -286,7 +294,7 @@ header .header-dx .container-btn{
 
 /* sezione schede 3x2 */
 .schede{
-    margin: 10% 0;
+    margin: 6% 0;
 }
 .titolo-schede{
     font-size: 40px;
@@ -402,4 +410,7 @@ header .header-dx .container-btn{
 .clear{
     background-color: rgb(255,216,48)
     ;
+}
+.affiliato:hover{
+    border: solid 10px rgba(255, 255, 255, 0.438);
 }
