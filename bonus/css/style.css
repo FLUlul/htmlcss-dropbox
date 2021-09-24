@@ -421,6 +421,7 @@ header .header-dx .container-btn{
 }
 .affiliato:hover{
     border: solid 10px rgba(255, 255, 255, 0.438);
+    cursor: pointer;
 }
 
 /* sezione banner prova gratuita */
