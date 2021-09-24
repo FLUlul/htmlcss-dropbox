@@ -236,9 +236,6 @@ header .header-dx .container-btn{
     padding-right: 5px;
     color:rgb(0,97,255) ;
 }
-.pacchetto .pacchetto-main .corto ul{
-    /* padding-bottom: 50px; */
-}
 /* pacchetto finale */
 .pacchetto-finale{
     margin-top: 50px;
@@ -330,7 +327,7 @@ header .header-dx .container-btn{
     color: rgb(0,97,255);
     text-decoration: underline;
 }
-
+/* blocchi affiliati */
 .container-affiliati{
     height: 600px;
 }
@@ -357,7 +354,7 @@ header .header-dx .container-btn{
     width: 30%;
     float: right;
 }
-
+/* note centrale affiliati */
 .affiliato-note{
     padding: 3%;
     width: 40%;
@@ -382,6 +379,7 @@ header .header-dx .container-btn{
 .cit{
     margin-top: 5%;
 }
+/* colori schede affiliati */
 .desi{
     background-color: rgb(162,211,155);
 }
@@ -414,3 +412,25 @@ header .header-dx .container-btn{
 .affiliato:hover{
     border: solid 10px rgba(255, 255, 255, 0.438);
 }
+
+/* sezione banner prova gratuita */
+.prova-free-banner{
+    background-color: #b4d0e7;
+    color: #61082b;
+    padding: 8% 0;
+}
+.prova-free-banner h2{
+    font-size: 50px;
+    font-weight: 800;
+    width: 50%;
+    float: left;
+}
+.prova-free-banner a{
+    float: right;
+    border: none;
+    width: 30%;
+    text-align: center;
+}
+/* fine sezione banner prova gratuita */
+
+/* sezione FAQ */
