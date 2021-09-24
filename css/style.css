@@ -38,6 +38,9 @@ header .header-sx{
     float: left;
     width: 50%;
 }
+.container-logo{
+    display: inline-block;
+}
 header .header-sx img{
     padding-left: 40px;
     line-height: 80px;
@@ -48,6 +51,7 @@ header .header-sx ul{
     margin: 0 50px;
     line-height: 77px;
     vertical-align: middle;
+    height: 77px;
 }
 header .header-sx li{
     display: inline-block;
