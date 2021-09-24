@@ -462,6 +462,7 @@ header .header-dx .container-btn{
     color: white;
     padding: 5% 0;
 }
+/* footer nav */
 .col-footer{
     margin-right: 50px;
     width: calc(100% / 5 - 50px);
@@ -477,4 +478,18 @@ header .header-dx .container-btn{
 }
 .col-footer a{
     color: white;
+}
+/* footer lingua */
+.lingua{
+    color: grey;
+    margin-top: 8%;
+    padding-top: 3%;
+    border-top: solid white 1px;
+    width: 10%;
+}
+.lingua i {
+    font-size: 15px;
+}
+.lingua a{
+    color: grey;
 }
