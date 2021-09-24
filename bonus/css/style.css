@@ -60,6 +60,10 @@ header .header-sx li{
 header .header-sx li:hover{
     border-bottom: solid 3px rgb(0,97,255);
 }
+header .header-sx li a{
+    display: inline-block;
+    height: 100%;
+}
 
 /* header DX */
 header .header-dx{
@@ -77,6 +81,10 @@ header .header-dx li{
 }
 header .header-dx li:hover{
     border-bottom: solid 3px rgb(0,97,255);
+}
+header .header-dx li a{
+    display: inline-block;
+    height: 100%;
 }
 header .header-dx .container-btn{
     display: inline-block;
