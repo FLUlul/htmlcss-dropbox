@@ -455,15 +455,30 @@ header .header-dx .container-btn{
 .container-faq .domanda{
     font-size: 20px;
     float: left;
-    padding: 3% 0;
+    padding: 4% 0;
+    width: 98%;
+
 }
 .container-faq i{
     float: right;
     padding: 3% 0;
+    width: 2%;
 }
 .container-domande-faq{
     border-bottom: 1px grey solid;
+    height:100px;
+    overflow: hidden;
 }
+
+/* hover FAQ */
+.container-domande-faq:hover{
+    height: 300px;
+    cursor: pointer;
+}
+.container-domande-faq:hover .frecciaGiuFaq{
+    display: none;
+}
+
 /* fine sezione FAQ */
 
 /* sezione footer */
@@ -504,3 +519,4 @@ header .header-dx .container-btn{
     color: grey;
 }
 /* fine sezione footer */
+
