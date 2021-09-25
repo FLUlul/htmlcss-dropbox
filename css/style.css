@@ -246,6 +246,12 @@ header .header-dx .container-btn{
 .pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li i{
     padding-right: 5px;
     color:rgb(0,97,255) ;
+    float: left;
+    padding-top: 1%;
+}
+.pacchetto .pacchetto-main .pacchetto-puntiSalienti ul li span{
+    float: left;
+    width: 94%;
 }
 /* pacchetto finale */
 .pacchetto-finale{
