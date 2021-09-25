@@ -214,7 +214,8 @@ header .header-dx .container-btn{
 }
 .pacchetto .pacchetto-main .pacchetto-contenuto .cnt i{
     float: left;
-    padding: 5px 5px ;
+    padding-right: 5px;
+    padding-top: 3px;
 
 }
 /* pacchetto btn e acquista ora */
