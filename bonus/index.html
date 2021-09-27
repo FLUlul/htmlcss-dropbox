@@ -28,7 +28,13 @@
 
         <div class="header-dx">
             <ul>
-                <li><a href="#">Supporto</a></li>
+                <li id="tendina"><a href="#">Supporto</a>
+                    <ul id="tendina-lista">
+                        <li><a href="">via mail</a></li>
+                        <li><a href="">via chat</a></li>
+                        <li><a href="">via telefono</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
             </ul>
 
@@ -68,7 +74,7 @@
             </div>
 
             <div class="frecciaGiu">
-                <i class="fas fa-arrow-down"></i>
+                <a href="#plan"><i class="fas fa-arrow-down"></i></a>
             </div>
 
         </div>
@@ -77,7 +83,7 @@
     <!-- corpo della pagina -->
     <main>
         <!-- section pacchetti in vendita -->
-        <section class="pacchetti">
+        <section class="pacchetti" id="plan" >
             <!-- centratura al 65% -->
             <div class="horizontal-center-2">
                 <!-- titolo pacchetti -->
@@ -85,7 +91,7 @@
                     Trova il piano Dropbox Buisness che fa per te
                 </h2>
                 <!-- input radio -->
-                <div class="fatturazioni">
+                <div class="fatturazioni ">
                     <form action="">
                         <input type="radio"><span>Fatturazione mensile</span>
                         <input type="radio"><span>Fatturazione mensile</span>

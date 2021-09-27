@@ -109,7 +109,8 @@ header .header-dx .container-btn{
     margin: auto;
 }
 #jumbo .horizontal-center{
-    height: 850px;
+    position: relative;
+    bottom: -150px;
 }
 #jumbo .horizontal-center h1{
     font-size: 80px;
